@@ -1,0 +1,18 @@
+<?php
+ 
+class AclGroup extends Eloquent {
+protected $table = 'acl_groups';
+protected $fillable = array(
+'name', 'description'
+);
+public $timestamps = false;
+public function users()
+{
+return $this->belongsToMany('User', 'acl_user_groups');
+}
+public function permissions()
+{
+return $this->belongsToMany('AclPermission', 'acl_group_permissions');
+}
+ 
+}
