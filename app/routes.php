@@ -1,5 +1,5 @@
 <?php
- echo "hello";
+ echo "hello this case";
 /*
 |--------------------------------------------------------------------------
 | Application Routes
