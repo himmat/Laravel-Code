@@ -1,5 +1,5 @@
 <?php
-
+echo "hi bhiya (Dewas naresh )  is big C";
 /* 
 |--------------------------------------------------------------------------
 | Application Routes
